@@ -1,0 +1,54 @@
+{
+    "name": "Augmate",
+    "description": "<p><span>Augmate is the first wearable platform that accelerates the development of cloud-based smart eyewear applications. Our development environment allows us to build applications that integrate with enterprise backend services and a variety of API plug-ins. These capabilities enhance the user experience for the deskless workers that utilize our applications.&nbsp;<\/span><\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/augmate-logo.jpeg",
+    "tags": [
+        "api provider",
+        "have api",
+        "internet of things",
+        "no api definition"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/augmate\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Augmate",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/augmate-logo.jpeg",
+            "humanURL": "https:\/\/augmate.io\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/augmate-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/augmate-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "https:\/\/augmate.io\/"
+        },
+        {
+            "type": "Email",
+            "url": "info@augmate.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/augmate"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/augmate.com\/"
+        }
+    ]
+}
