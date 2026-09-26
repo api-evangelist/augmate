@@ -1,23 +1,67 @@
 aid: augmate
+
 name: Augmate
-description: 'Augmate is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Augmate provides a mission‑driven IoT and wearable device management platform that connects employees, customers, devices and data. Their solutions enable enterprises to deploy and manage head‑mounted displays, smart glasses, and other wearables at scale across industries such as smart medicine, energy, agriculture, retail, and automotive. Augmate’s platform offers device provisioning, app distribution, data analytics, and integration via robust APIs, supporting blockchain‑enabled, protocol‑agnostic, tokenized architectures for secure IoT deployments.'
+
 url: https://raw.githubusercontent.com/api-evangelist/augmate/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- IoT
+- Wearables
+- Device Management
+- Enterprise
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/augmate-hosts.yml
+- type: SDKs
+  url: packages/augmate-packages.yml
+- type: Packages
+  url: packages/augmate-packages.yml
+- type: GitHubOrganization
+  url: https://github.com/augmate
+- type: DomainSecurity
+  url: security/augmate-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/augmate
+  url: https://augmate.io
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-26'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://equityzen.com/company/augmate
+    status: 403
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
